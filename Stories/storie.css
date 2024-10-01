@@ -335,9 +335,11 @@ nav ul li:hover{
     }
     .container-1{
         width: fit-content;
+        padding: 0%;
+        margin: 0%;
     }
     .container-1 img{
-        width: 490px;
+        width: fit-content;
         height: 200px;
     }
     
