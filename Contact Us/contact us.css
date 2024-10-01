@@ -271,7 +271,7 @@ nav ul li:hover{
         z-index: 1000;
     }
     .nav img{
-        width: 50px;
+        width: 70px;
         height: 30px;
     }
     .nav ul{
@@ -303,7 +303,7 @@ nav ul li:hover{
         order: 2;
     }
     .container-2 img{
-        width: 520px;
+        width: 490px;
         height: 300px;
         order: 1;
     }
