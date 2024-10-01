@@ -364,12 +364,12 @@ nav ul li:hover{
 .container-footer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    width: 100vw;
+    width: 100%;
 }
 .col-banner{
     display: flex;
     flex-direction: column;
-    width: 180px;
+    width: 190px;
 }
 .copy-right{
     font-size: 10px;
