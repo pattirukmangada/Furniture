@@ -361,6 +361,9 @@ nav ul li:hover{
     margin: 0 1px;
     background-color: white;
 }
+.footer-details{
+    width: 100%;
+}
 .container-footer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
