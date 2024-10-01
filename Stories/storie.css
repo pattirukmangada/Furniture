@@ -362,7 +362,7 @@ nav ul li:hover{
     background-color: white;
 }
 .footer-details{
-    width: 100%;
+    width: 400px;
 }
 .container-footer{
     display: grid;
