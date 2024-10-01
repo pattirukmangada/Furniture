@@ -347,6 +347,12 @@ nav ul li:hover{
         width: 220px;
         padding: 5px;
     }
+    .container-content .right{
+        display: flex;
+        justify-content: right;
+        margin-right: 5px;
+        
+    }
     .container-content h1{
         font-size: 12px;
         font-weight: 700;
