@@ -17,6 +17,9 @@ nav{
     z-index: 1000;
     background-color: white;
 }
+.nav{
+    display: none;
+}
 .dropdown {
     float: left;
     overflow: hidden;
@@ -164,6 +167,12 @@ nav ul li:hover{
     width: 500px;
     height: 500px;
 }
+.footer{
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: 5px solid black;
+}
 .footer-details{
     margin-top: 10px;
     padding: 5px 0;
@@ -195,4 +204,116 @@ nav ul li:hover{
 .col-banner img{
     width: 75px;
     height: 25px;
+}
+
+
+@media screen and (max-width:800px) {
+    .nav{
+        display: none;
+   }
+    body{
+         overflow-x: hidden;
+    }
+    nav ul li a{
+        font-size: 12px;
+        
+    }
+   .container-1{
+
+   }
+   .container-2 img{
+         width: fit-content;
+         height: 500px;
+   }
+   .col-banner{
+    display:flex;
+    flex-direction: row;width: 270px;
+}
+.footer-details h1{
+    font-size: 15px;
+}
+.container-footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100vw;
+}
+.col-banner{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.copy-right{
+    font-size: 10px;
+}
+.col-banner p{
+    font-size: 10px;
+}
+.col ol li{
+    font-size: 10px;
+
+}
+}
+
+@media screen and (min-width:400px) and (max-width:650px) {
+    nav{display: none;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+    .nav img{
+        width: 50px;
+        height: 30px;
+    }
+    .nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav ul li{
+        list-style: none;
+        padding: 2px 5px;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 700;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-transform: uppercase;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin-top: 20px;
+        padding: 20px 25px;
+    }
+    .container-1{
+        width: 100%;
+        order: 2;
+    }
+    .container-2 img{
+        width: 520px;
+        height: 300px;
+        order: 1;
+    }
+    .footer-details{
+        width: 540px;
+    }
+    .col-banner{
+        display:flex;
+        flex-direction: row;
+        width: 280px;  
+}
+
 }
