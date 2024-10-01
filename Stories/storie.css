@@ -369,7 +369,7 @@ nav ul li:hover{
 .col-banner{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 180px;
 }
 .copy-right{
     font-size: 10px;
