@@ -349,7 +349,7 @@ nav ul li:hover{
     }
     .container-content .right{
         display: flex;
-        justify-content: right;
+        justify-content: left;
         margin-right: 5px;
         
     }
