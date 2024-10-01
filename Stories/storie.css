@@ -335,12 +335,12 @@ nav ul li:hover{
         margin-top: 20px;
     }
     .container-1{
-        width: 380px;
+        width: 350px;
         padding: 0%;
         margin: 0%;
     }
     .container-1 img{
-        width: 380px;
+        width: 350px;
         height: 300px;
     }
     
@@ -362,7 +362,7 @@ nav ul li:hover{
     background-color: white;
 }
 .footer-details{
-    width: 400px;
+    width: 100%;
 }
 .container-footer{
     display: grid;
@@ -372,7 +372,7 @@ nav ul li:hover{
 .col-banner{
     display: flex;
     flex-direction: column;
-    width: 160px;
+    width: 120px;
 }
 .copy-right{
     font-size: 10px;
