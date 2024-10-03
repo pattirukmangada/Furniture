@@ -461,25 +461,50 @@ input[type="color"]{
     .product-card{
         margin: 5px;
         width: 200px;
-        height: 200px;
+        height: fit-content;
         text-align: center;
     }
     .product-card img{
         width: 150px;
-        height: 100px;
+        height: 150px;
     }
     .side-bar{
         width: 120px;
     }
-    .page{
-        margin-top: 20px;
+    .page-link{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 20px;
     }
-    .page ul{
+    .page-link ul{
         display: flex;
-        justify-content: center;
+        list-style: none;
+        margin-bottom: 50px;
+    }
+    .page-link ul li{
+        border: 2px solid black;
+        padding: 10px 15px;
+        margin: 0 1px;
+        background-color: white;
+    }
+    .page-link ul li:hover{
+        background-color: lightslategray;
+    }
+    .page-link ul li a:hover{
+        text-decoration: none;
+        color:white;
+        padding: 10px 15px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .page-link ul li a{
+        text-decoration: none;
+        color: black;
+        padding: 10px 15px;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
     }
     .footer-details{
         width: 100%;
