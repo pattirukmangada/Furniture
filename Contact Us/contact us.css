@@ -302,18 +302,23 @@ nav ul li:hover{
         width: 100%;
         order: 2;
     }
+    .container-2{
+        display: flex;
+        place-items: center;
+    }
     .container-2 img{
-        width: 490px;
+        width: 350px;
         height: 300px;
         order: 1;
+        margin-bottom: 50px;
     }
     .footer-details{
-        width: 540px;
+        width: 100%;
     }
     .col-banner{
         display:flex;
         flex-direction: row;
-        width: 280px;  
+        width: 200px;  
 }
 
 }
