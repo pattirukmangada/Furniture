@@ -215,12 +215,8 @@ nav ul li:hover{
          overflow-x: hidden;
     }
     nav ul li a{
-        font-size: 12px;
-        
+        font-size: 12px; 
     }
-   .container-1{
-
-   }
    .container-2 img{
          width: fit-content;
          height: 500px;
