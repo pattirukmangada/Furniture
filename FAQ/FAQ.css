@@ -272,9 +272,8 @@ nav ul li:hover{
         border: none;
         outline: none;
         color: black;
-        padding: 14px 16px;
+        padding: 2px 5px;
         background-color: inherit;
-        font-family: inherit;
         margin: 0;
       }
       .dropdown-content {
@@ -293,7 +292,7 @@ nav ul li:hover{
         padding: 12px 10px;
         text-decoration: none;
         display: block;
-        text-align: left;
+        text-align: center;
       }
       
       .dropdown-content a:hover {
