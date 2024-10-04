@@ -191,9 +191,6 @@ nav ul li:hover{
     color: black;
     text-align: left;
 }
-.footer{
-    width: 100%;
-}
 .container-footer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -349,18 +346,18 @@ nav ul li:hover{
         width: 100%;
     }
 
+    .footer-details{
+        width: 100%;
+    }
     .container-footer{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         width: 100%;
     }
-    .parent{
-        width: fit-content;
-    }
     .col-banner{
         display: flex;
         flex-direction: column;
-        width: 160px;
+        width: 120px;
     }
     .copy-right{
         font-size: 10px;
@@ -370,10 +367,5 @@ nav ul li:hover{
     }
     .col ol li{
         font-size: 10px;
-
-    }
-    ol li{
-        margin: 0% !important;
-        padding: 0% !important;
     }
 }

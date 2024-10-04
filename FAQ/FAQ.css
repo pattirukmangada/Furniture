@@ -314,15 +314,18 @@ nav ul li:hover{
     .container-1 h6,.container-2 h6{
         font-size: 15px;
     }
+    .footer-details{
+        width: 100%;
+    }
     .container-footer{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        width: 100vw;
+        width: 100%;
     }
     .col-banner{
         display: flex;
         flex-direction: column;
-        width: 160px;
+        width: 120px;
     }
     .copy-right{
         font-size: 10px;
@@ -332,9 +335,5 @@ nav ul li:hover{
     }
     .col ol li{
         font-size: 10px;
-    }
-    .col ol li{
-        margin: 0% !important;
-        padding: 0% !important;
     }
 }

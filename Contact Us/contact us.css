@@ -180,12 +180,6 @@ nav ul li:hover{
     width: 500px;
     height: 500px;
 }
-.footer{
-    background-color: white;
-    margin-top: 20px;
-    padding: 10px;
-    border: 5px solid black;
-}
 .footer-details{
     margin-top: 10px;
     padding: 5px 0;
@@ -366,14 +360,24 @@ nav ul li:hover{
     .footer-details{
         width: 100%;
     }
+    .container-footer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+    }
     .col-banner{
-        display:flex;
+        display: flex;
         flex-direction: column;
-        width: 160px;  
-}
-ol li{
-    margin: 0% !important;
-    padding: 0% !important;
-}
+        width: 120px;
+    }
+    .copy-right{
+        font-size: 10px;
+    }
+    .col-banner p{
+        font-size: 10px;
+    }
+    .col ol li{
+        font-size: 10px;
+    }
 
 }

@@ -285,6 +285,7 @@ input[type="color"]{
 .container-footer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
 }
 .container-footer .col ol li{
     list-style: none;
@@ -292,8 +293,7 @@ input[type="color"]{
 }
 .col-banner{
     display:flex;
-    flex-direction: row;
-    width: 500px;
+    flex-direction: row;width: 500px;
 }
 .col-banner img{
     width: 75px;
@@ -482,22 +482,19 @@ input[type="color"]{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         width: 100%;
-        justify-items: center;
     }
     .col-banner{
-        float: right;
-        width: 100px;
+        display: flex;
+        flex-direction: column;
+        width: 120px;
     }
-    .left-banner img{
-        width: 70px;
-        height: 20px;
+    .copy-right{
+        font-size: 10px;
     }
-    .col ol{
-        display: grid;
-        width: fit-content;
+    .col-banner p{
+        font-size: 10px;
     }
-    ol li{
-        margin: 0% !important;
-        padding: 0% !important;
+    .col ol li{
+        font-size: 10px;
     }
 }
