@@ -279,7 +279,7 @@ nav ul li:hover{
         z-index: 1000;
     }
     .nav img{
-        width: 50px;
+        width: 70px;
         height: 30px;
     }
     .nav ul{
@@ -311,9 +311,8 @@ nav ul li:hover{
         border: none;
         outline: none;
         color: black;
-        padding: 14px 16px;
+        padding: 2px 4px;
         background-color: inherit;
-        font-family: inherit;
         margin: 0;
       }
       .dropdown-content {
@@ -332,7 +331,7 @@ nav ul li:hover{
         padding: 12px 10px;
         text-decoration: none;
         display: block;
-        text-align: left;
+        text-align: center;
       }
       
       .dropdown-content a:hover {
@@ -353,7 +352,7 @@ nav ul li:hover{
     .container-footer{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        width: 100vw;
+        width: 100%;
     }
     .parent{
         width: fit-content;
@@ -361,7 +360,7 @@ nav ul li:hover{
     .col-banner{
         display: flex;
         flex-direction: column;
-        width: 150px;
+        width: 160px;
     }
     .copy-right{
         font-size: 10px;
@@ -372,5 +371,9 @@ nav ul li:hover{
     .col ol li{
         font-size: 10px;
 
+    }
+    ol li{
+        margin: 0% !important;
+        padding: 0% !important;
     }
 }

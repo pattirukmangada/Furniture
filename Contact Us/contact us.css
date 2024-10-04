@@ -160,6 +160,19 @@ nav ul li:hover{
 .social-media-link ul li{
     list-style: none;
 }
+.social-media-link ul li svg{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.social-media-link ul li svg:hover{
+    background-color: red;
+    transform: rotate(360deg);
+    border-radius: 50%;
+    transition: 0.5s;
+}
 .container-2{
     width: auto;
 }
@@ -356,7 +369,11 @@ nav ul li:hover{
     .col-banner{
         display:flex;
         flex-direction: column;
-        width: 180px;  
+        width: 160px;  
+}
+ol li{
+    margin: 0% !important;
+    padding: 0% !important;
 }
 
 }
