@@ -598,7 +598,7 @@ nav ul li:hover{
     .col-banner{
         display: flex;
         flex-direction: column;
-        width: 100px;
+        width: 160px;
     }
     .copy-right{
         font-size: 10px;
@@ -660,7 +660,7 @@ nav ul li:hover{
 .product-card p{
     line-height: 1px;
 }
-ol li{
+col ol li{
     margin: 0% !important;
     padding: 0% !important;
 }
